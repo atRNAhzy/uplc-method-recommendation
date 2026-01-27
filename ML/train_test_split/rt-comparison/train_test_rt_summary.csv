@@ -1,4 +1,0 @@
-dataset,train_samples,test_samples,train_mean,train_std,test_mean,test_std,ks_stat,ks_p_value,ks_reject
-AM-I-filtered_with_labels_k4,6118,681,71.7817,13.2912,71.6592,12.9982,0.0241,0.8581,False
-AM-II-filtered_with_labels_k3,1650,186,56.7856,9.5168,56.9462,9.1700,0.0491,0.7941,False
-AM-III-filtered_with_labels_k4,1089,123,78.1087,14.4701,77.5383,14.6487,0.0571,0.8417,False
