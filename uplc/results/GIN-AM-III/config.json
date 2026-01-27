@@ -1,0 +1,20 @@
+{
+  "task": "test1",
+  "data_path": "/home/huangzy/uplc/data/2.train_test_split/AM-III-filtered_with_labels_k4_train.csv",
+  "test_data_path": "/home/huangzy/uplc/data/2.train_test_split/AM-III-filtered_with_labels_k4_test.csv",
+  "hidden_dim": 64,
+  "num_layers": 2,
+  "dropout": 0.7,
+  "gnn_type": "GIN",
+  "batch_size": 128,
+  "num_epochs": 500,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "train_ratio": 0.9,
+  "save_dir": "/home/huangzy/uplc/results/GIN-AM-III",
+  "finetune": false,
+  "model_dir": null,
+  "analyze_data": false,
+  "use_stratified_sampling": false,
+  "seed": 42
+}
